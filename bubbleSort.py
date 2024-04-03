@@ -2,14 +2,19 @@ def bubble_sort(arr):
     n = len(arr)
     # Perform n - 1 passes
     for i in range(n - 1):
+        # Initialize flag to False for each pass
+        flag = False
         # In each pass, compare each element with its adjacent element
-        for j in range(n - i - 1):  # Since Bubble Sort, moves the largest unsorted element to its correct position in each pass, after i passes, the last i 
-            if arr[j] > arr[j + 1]: # elements are guaranteed to be in their correct sorted positions. Therefore, there is no need to compare them again in subsequent passes.
-                # Swap the elements 
-                temp = arr[j]
-                arr[j] = arr[j + 1]
-                arr[j + 1] = temp
+        for j in range(n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # Swap the elements
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                # Set flag to True if a swap occurs
+                flag = True
+        # If no swaps occur in a pass, the array is already sorted, so break the loop
+        if not flag:
+            break
 
-arr = [8, 5, 7, 3, 2]
+arr = [8, 8, 3, 5, 4]
 bubble_sort(arr)
 print("Sorted array:", arr)
