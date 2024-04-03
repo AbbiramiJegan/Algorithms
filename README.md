@@ -1,4 +1,4 @@
-# Learning Algorithms and Data Structures
+# Learning Data Structures and Algorithms  
 
 Welcome to my GitHub repository where I'm learning how to code by studying algorithms and data structures!
 
