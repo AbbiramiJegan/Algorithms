@@ -24,16 +24,6 @@ In this repository, you will find:
 
 Each algorithm and data structure is implemented in a separate file or directory, along with explanatory comments and examples to aid understanding.
 
-## Getting Started
-
-To get started with exploring the code in this repository, simply clone the repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/learning-algorithms-data-structures.git
-```
-
-Feel free to browse through the files, examine the code, and experiment with different algorithms and data structures. You can also run the provided examples to see how they work.
-
 ## Contribution
 
 While this repository primarily serves as my personal learning space, contributions are welcome! If you notice any bugs, improvements, or want to add your own implementations of algorithms or data structures, feel free to open an issue or submit a pull request.
